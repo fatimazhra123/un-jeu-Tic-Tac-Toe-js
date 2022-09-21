@@ -29,11 +29,30 @@
        background-color: rgb(75, 185, 209);
         float: left;
         margin: 2px;
-        border-radius: 12px;
+      
         font-size: 50px;
     }
     .Tic-Tac:hover {
         background:rgb(238, 219, 5);
         color:rgb(126, 147, 148);
       }
+      .Restare,.winner{
+        background-color: rgb(75, 185, 209);
+        padding:8px;
+       width:auto;
+       margin-bottom: 10px;
+
+      }
+      #Restare{
+
+        background-color: rgb(75, 185, 209);
+        padding:2px;
+      
+       margin-bottom: 10px;
+       font-size: 40px;
+     
+      }
+     
+     
+
     

@@ -1,5 +1,8 @@
-let Restare=document.querySelector('.Restare');
+
+ 
+ let game = document.getElementById('Restare');
 let tac ='x';
+
 function box(id){
 
 
@@ -15,7 +18,7 @@ let element =document.getElementById(id)
  Restare.innerHTML='o';
 }
 
-else if(tac=="o"&& element.innerHTML==''){
+else if(tac =="o" && element.innerHTML ==''){
     element.innerHTML='o';
     tac='x';
     Restare.innerHTML='x';

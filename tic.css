@@ -1,0 +1,39 @@
+
+    /* CSS Code */
+    body{
+        background: rgb(126, 147, 148);
+    }
+    h1 {
+        
+       color:rgb(238, 219, 5);
+        font-size: 45px;
+        padding: 5px ;
+        width: 255px;
+        margin: auto;
+    }
+    p{
+        font-size: 17px;
+
+    }
+ 
+    .box{
+        width: 255px;
+        text-align:center;
+        font-family:Arial, Helvetica, sans-serif;
+        color:rgb(4, 4, 4);
+        margin: auto;
+    }
+    .Tic-Tac{
+        width: 80px;
+        height: 80px;
+       background-color: rgb(75, 185, 209);
+        float: left;
+        margin: 2px;
+        border-radius: 12px;
+        font-size: 50px;
+    }
+    .Tic-Tac:hover {
+        background:rgb(238, 219, 5);
+        color:rgb(126, 147, 148);
+      }
+    

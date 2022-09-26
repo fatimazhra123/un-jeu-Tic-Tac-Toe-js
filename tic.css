@@ -1,23 +1,33 @@
 
     /* CSS*/
-    
+
     h1{
         margin: auto;  
         text-align:center;
+        margin-bottom: 70px;
+        font-family: "Permanent Marker", cursive;
+        color: white;
+       
+
     }
     .game{
         width: 255px;
         text-align:center;
-        font-family:Arial, Helvetica, sans-serif;
-        color:rgb(244, 240, 240);
+        font-family: "Permanent Marker", cursive;
+        color:rgb(9, 9, 9);
         margin: auto;
         font-weight:500;
     }
     .colo{
-       background:#f25;
+       background:rgb(249, 247, 248);
        padding:5px 0;
         margin: 5px 0;
         color: black;
+        font-size: 20px;
+        font-weight:50;
+        border: 4px solid black;
+box-shadow: 8 8 8 8px;
+font-family: "Permanent Marker", cursive;
     }
 
     span{
@@ -28,16 +38,40 @@
     .square{
 width: 80px;
 height: 80px;
-background-color:#f25 ;
+background-color:rgb(250, 246, 247) ;
 float: left;
 margin: 2px;
 font-size: 50px;
-
-
+border: 4px solid black;
+box-shadow: 8 8 8 8px;
+font-family: "Permanent Marker", cursive;
     }
     .square:hover {
-        background:rgb(11, 11, 10);
+        background:rgb(248, 248, 246);
         cursor: pointer;
+        color: black;
       }
       
-    
+      .gamecontainer,.test,button{
+        font-family: "Permanent Marker", cursive;
+        text-align: center;
+        margin-bottom: 70px;
+        margin-top:30px;
+        font-family: "Permanent Marker", cursive;
+        
+      }
+      #restare,.test{
+        margin-top: 80px;
+        font-weight: 40;
+        color: white;
+        font-size: 30px;
+        font-family: "Permanent Marker", cursive;
+      }
+      .test{
+        margin-top: 80px;
+        font-weight: 40;
+        color: rgb(254, 250, 250);
+        font-size: 30px;
+        font-family: "Permanent Marker", cursive;
+      }
+     
